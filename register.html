@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        body {
+            background: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20240826-WA0005-2wDPqfrAbsDjX6Sn05TyDSMRPjHEc1.jpg') no-repeat center center/cover;
+            background-size: cover;
+            height: 100vh;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* login form */
+        .form {
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 400px;
+            align-items: center;
+            margin: auto;
+            margin-top: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+            border-radius: 25px;
+        }
+        .form h1 {
+            color: white;
+            font-size: 2rem;
+            border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+            margin: 50px;
+        }
+        /* Boxes */
+        .box {
+            padding: 12px;
+            margin: 20px;
+            width: 65%;
+            border: none;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 1rem;
+        }
+        #submit {
+            padding: 10px 20px;
+            margin-top: 50px;
+            width: 50%;
+            background-color: rgba(0, 0, 0, 0.5);
+            box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+        #submit:hover {
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+    
+    </style>
+</head>
+<body>
+    <form action="" class="form">
+        <h1>Register</h1>
+        <input type="text" name="fname" class="box" placeholder="Enter first name">
+        <input type="text" name="lname" class="box" placeholder="Enter last name">
+        <input type="email" name="email" class="box" placeholder="Enter email">
+        <input type="password" name="password" class="box" placeholder="Enter password">
+       <center><a href="./dub.html" class="cta-button" type="submit" value="LOGIN" id="submit">LOGIN</a></center>
+    </form>
+</body>
+</html>
